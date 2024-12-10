@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: white;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 700px;
+    margin-top: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #c00;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+input, select, textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color: #c00;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 10px 5px 0 0;
+}
+
+button:hover {
+    background-color: #900;
+}
+
+#contacts-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+thead {
+    background-color: #c00;
+    color: white;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
